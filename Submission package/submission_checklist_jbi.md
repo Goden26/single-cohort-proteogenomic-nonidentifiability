@@ -13,7 +13,8 @@ Publishing route: Subscription / non-open-access option. This route has no publi
 3. Cover letter: `cover_letter.docx`
 4. Graphical abstract: `graphical_abstract.png` or `graphical_abstract.pdf`
 5. Declaration statements: `declarations.docx`
-6. Suggested reviewers, only if the system asks: `suggested_reviewers.docx`
+6. Statement of Significance, if the system requests it as a separate upload: `statement_of_significance.docx`
+7. Suggested reviewers, only if the system asks: `suggested_reviewers.docx`
 
 ## Manuscript compliance
 
