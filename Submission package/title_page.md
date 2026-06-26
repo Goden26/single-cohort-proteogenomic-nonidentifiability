@@ -35,7 +35,7 @@ This work received no specific grant from any funding agency in the public, comm
 The author declares no competing interests.
 
 **Data and code availability**
-All data analyzed are public. The complete analysis code and intermediate tables are released and reproduce every reported number (see the manuscript section "Data and code availability" and the Declarations).
+All data analyzed are public. The complete analysis code, result tables, figures, manuscript build scripts, and parsed intermediate matrices are released at https://github.com/Goden26/single-cohort-proteogenomic-nonidentifiability and archived at Zenodo (DOI: 10.5281/zenodo.20888892).
 
 **Use of generative AI**
 The author used an AI-assisted coding and writing tool, disclosed in full in the Declarations, and takes full responsibility for the content.
