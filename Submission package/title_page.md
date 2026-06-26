@@ -26,7 +26,7 @@ ORCID: https://orcid.org/0009-0008-2281-970X
 Data integration; Batch effects; Non-identifiability; Confounding; Proteogenomics; Reproducibility; Benchmarking
 
 **Word counts**
-Structured abstract: 275 words. Main text (Introduction through Conclusion): 5,870 words. Figures: 6. Tables: 2. References: 24. Supplementary material: full analysis code and intermediate result tables released as an open repository.
+Structured abstract: 283 words including section labels. Main text (Introduction through Conclusion): 5,870 words. Figures: 6. Tables: 2. References: 24. Supplementary material: full analysis code and intermediate result tables released as an open repository.
 
 **Funding**
 This work received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.

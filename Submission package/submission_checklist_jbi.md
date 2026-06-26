@@ -18,7 +18,7 @@ Publishing route: Subscription / non-open-access option. This route has no publi
 
 ## Manuscript compliance
 
-- Structured abstract with Objective, Methods, Results, Conclusion: 275 words.
+- Structured abstract with Objective, Methods, Results, Conclusion: 283 words including section labels.
 - Main text from Introduction through Conclusion: 5,870 words.
 - Required Statement of Significance is embedded in the Introduction.
 - Body sections follow JBI structure: Introduction, Related Work, Methods, Results, Discussion, Conclusion.
