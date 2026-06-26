@@ -88,7 +88,7 @@ The submission docs are rebuilt with pandoc + tectonic using Materials/_tnr_ref.
 The manuscript is final. To actually submit, the author (not the analysis) must:
 1. Pick a journal. Suggested order: GigaScience or PLOS Computational Biology (reproducible benchmark / negative-with-content friendly) -> Briefings in Bioinformatics (applied track) -> BMC Bioinformatics or NAR Genomics and Bioinformatics -> backup Scientific Reports. All are SCI-indexed (degree-qualifying).
 2. Confirm the final journal submission form selected the subscription / non-open-access route for Journal of Biomedical Informatics. The code repository and Zenodo archive are already public: https://github.com/Goden26/single-cohort-proteogenomic-nonidentifiability and DOI 10.5281/zenodo.20888892.
-3. Trim the abstract to the chosen journal limit (currently 456 words; some journals want 250 to 350).
+3. Confirm the manuscript word-count field as 5,870 words for the main text from Introduction through Conclusion, excluding abstract, references, figures, and tables.
 4. Frame the cover letter around the general methods caution (already done) to avoid a desk-reject on "narrow/negative" grounds.
 
 ---
