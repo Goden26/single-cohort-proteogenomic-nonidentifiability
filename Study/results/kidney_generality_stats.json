@@ -1,0 +1,26 @@
+{
+  "organ": "kidney",
+  "types": "ccRCC vs pRCC",
+  "ccRCC_tumors": 232,
+  "pRCC_tumors": 16,
+  "common_proteins": 8870,
+  "n_tested": 8787,
+  "n_significant_fdr05": 6642,
+  "pct_significant": 0.7558893820416525,
+  "anchor_concordance_rho": 0.003556492960391725,
+  "anchor_sign_agreement": 0.4909463076680838,
+  "example_false_hits": [
+    "MEX3D",
+    "DCLRE1C",
+    "NIPAL4",
+    "JSRP1",
+    "CLEC12A",
+    "SOX5",
+    "ZNF521",
+    "OSCAR",
+    "CDV3",
+    "TNFRSF10B"
+  ],
+  "tcga_KIRC_n": 537,
+  "tcga_KIRP_n": 290
+}

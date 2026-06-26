@@ -1,0 +1,33 @@
+{
+  "n_kinases_integrated": 1606,
+  "rna_DE_sig_fdr05_lfc1": 571,
+  "icca_selective_dep": 11,
+  "icca_selective_dep_rna_concordant": 9,
+  "hcc_selective_dep": 11,
+  "hcc_selective_dep_rna_concordant": 0,
+  "depmap_HCC_lines": 24,
+  "depmap_iCCA_lines": 31,
+  "top_icca_kinases": [
+    "GRB2",
+    "TRPM7",
+    "CCND1",
+    "CRKL",
+    "WNK1",
+    "EGFR",
+    "PPP1R12A",
+    "ILK",
+    "SLC3A2",
+    "CDK1",
+    "SLC7A5"
+  ],
+  "top_hcc_kinases": [
+    "GRB2",
+    "PTK2",
+    "FERMT2",
+    "BCL2L1",
+    "CCND1",
+    "FGFR1",
+    "ACTB",
+    "CRKL"
+  ]
+}

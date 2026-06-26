@@ -1,0 +1,31 @@
+{
+  "title": "Merging single-cohort proteogenomic datasets is non-identifiable for cross-tumor contrasts: a calibrated benchmark in liver and kidney cancer",
+  "upload_type": "software",
+  "description": "Reproducible code, parsed matrices, result tables, figures, and Journal of Biomedical Informatics submission files for a benchmark showing that single-cohort-per-tumor-type proteogenomic merges are non-identifiable for cross-tumor contrasts. The powered liver case compares HCC and iCCA; a kidney pair provides a corroborating generality check.",
+  "creators": [
+    {
+      "name": "Quan, Anh Tuan",
+      "affiliation": "International Graduate Program in Medicine, College of Medicine, Taipei Medical University, Taipei, Taiwan",
+      "orcid": "0009-0008-2281-970X"
+    }
+  ],
+  "keywords": [
+    "data integration",
+    "batch effects",
+    "non-identifiability",
+    "proteogenomics",
+    "reproducibility",
+    "benchmarking",
+    "hepatocellular carcinoma",
+    "intrahepatic cholangiocarcinoma"
+  ],
+  "license": "MIT",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/Goden26/single-cohort-proteogenomic-nonidentifiability",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open"
+}

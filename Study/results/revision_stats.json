@@ -1,0 +1,61 @@
+{
+  "A_direct_iCCA_pref_n": 4,
+  "A_direct_survivors_fdr10": 7,
+  "A_direct_iCCA_more_essential_fdr10": 4,
+  "A_of11_survive_direct_fdr10": 2,
+  "A_of11_pan_essential": 7,
+  "A_of11_selective_both_lineages": 3,
+  "B_cv_auc_allgenes": 0.9664227955333077,
+  "B_cv_auc_perm_p": 0.0,
+  "B_perm_null_95": 0.6293569503273008,
+  "B_cv_auc_nonmarker": 0.9656526761648055,
+  "B_cv_auc_nonmarker_perm_p": 0.0,
+  "B_cv_nested": true,
+  "C_n_iCHC": 8,
+  "C_cliffs_iCHC_vs_HCC": 0.41172506738544473,
+  "C_cliffs_iCHC_vs_iCCA": -0.8642857142857143,
+  "C_p_iCHC_vs_HCC": 0.04501038840668825,
+  "C_p_iCHC_vs_iCCA": 2.2964169007098222e-05,
+  "C_iCHC_median": -0.08157475479018073,
+  "C_iCHC_median_CI": [
+    -0.20638716091723375,
+    -0.0021538330566551744
+  ],
+  "C_HCC_median": -0.16494436551607528,
+  "C_iCCA_median": 0.12624232051007778,
+  "D_positive_control_DepMapVsTCGA_rho": 0.014747435060768746,
+  "D_positive_control_p": 0.04104550615802768,
+  "D_positive_control_n_genes": 19193,
+  "D_proteome_rho": -0.1541319565402723,
+  "D_proteome_rho_CI": [
+    -0.17817437562717706,
+    -0.12761767417498002
+  ],
+  "D_proteome_sign_agree": 0.41867954911433175,
+  "D_proteome_sign_binom_p": 2.3498590800668114e-12,
+  "D_phospho_rho": -0.04471428646436217,
+  "D_phospho_sign_agree": 0.4533898305084746,
+  "D_phospho_sign_binom_p": 0.17149946345993616,
+  "E_in_omnipath_enzyme_universe": {
+    "EGFR": true,
+    "GRB2": true,
+    "CRKL": true,
+    "CCND1": true,
+    "WNK1": true,
+    "TRPM7": true,
+    "SLC7A5": true,
+    "SLC3A2": true,
+    "ILK": true,
+    "CDK1": true,
+    "PPP1R12A": true
+  },
+  "E_noncanonical_labels": {
+    "SLC7A5": "LAT1 amino-acid transporter (not a kinase)",
+    "SLC3A2": "LAT1/4F2hc transporter subunit (not a kinase)",
+    "ILK": "pseudokinase (debated catalytic activity)",
+    "CCND1": "cyclin (regulatory, not a kinase)",
+    "PPP1R12A": "myosin phosphatase subunit (not a kinase)",
+    "GRB2": "adaptor (not a kinase)",
+    "CRKL": "adaptor (not a kinase)"
+  }
+}

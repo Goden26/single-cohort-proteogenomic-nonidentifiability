@@ -1,0 +1,11 @@
+{
+  "per_cohort_zscore_marker_discriminant_auc": 0.5041145006759538,
+  "per_cohort_zscore_fullLDA_cv_auc": 0.9751072709104802,
+  "EGFR_raw_dep_p_icca_vs_hcc": 0.1482781019165635,
+  "EGFR_dep_fdr_icca_vs_hcc": 0.6250252799947532,
+  "EGFR_log2FC_iCCA_HCC": 0.3790482116571105,
+  "FGFR1_log2FC_iCCA_HCC": 3.1606321416346175,
+  "FGFR1_dep_diff_iCCA_minus_HCC": 0.3945662596660541,
+  "omnipath_phosphorylation_relations": 40109,
+  "omnipath_enzymes": 1657
+}

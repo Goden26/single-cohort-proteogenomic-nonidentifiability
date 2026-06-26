@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Raw public inputs are not versioned in the code repository.
+# Use Study/scripts/download_data.sh and Study/scripts/dl_kidney.sh,
+# or the accession list in data_manifest.md, to recreate Data/.
+Data/
+
+# Local runtime and transient outputs
+Study/venv/
+Study/logs/
+Study/qa_render/
+Study/**/__pycache__/
+
+# Parsed matrices are included in the Zenodo archive, not GitHub, to keep
+# the git repository lightweight. Result JSON/CSV files remain versioned.
+Study/results/parsed/
+
+# Local editor and assistant state
+.claude/
+.codex/
+
+# Generated archive bundles
+release/
+*.zip

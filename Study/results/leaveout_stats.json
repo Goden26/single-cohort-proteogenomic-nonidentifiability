@@ -1,0 +1,26 @@
+{
+  "AAT_full": {
+    "n_genes_dep": 14,
+    "dep_competitive_perm_p": 0.0024,
+    "dep_mean_diff": -0.05901966385738544,
+    "tcga_expr_p": 1.2041706060492702e-10,
+    "tcga_expr_n_genes": 14,
+    "tcga_frac_genes_iCCA_up": 0.8571428571428571
+  },
+  "AAT_minus_SLC3A2": {
+    "n_genes_dep": 13,
+    "dep_competitive_perm_p": 0.0196,
+    "dep_mean_diff": -0.03514359260677415,
+    "tcga_expr_p": 2.1545316113429861e-10,
+    "tcga_expr_n_genes": 13,
+    "tcga_frac_genes_iCCA_up": 0.8461538461538461
+  },
+  "AAT_minus_LAT1(SLC3A2+SLC7A5)": {
+    "n_genes_dep": 12,
+    "dep_competitive_perm_p": 0.2034,
+    "dep_mean_diff": -0.011259827152588183,
+    "tcga_expr_p": 1.636299958975952e-10,
+    "tcga_expr_n_genes": 12,
+    "tcga_frac_genes_iCCA_up": 0.8333333333333334
+  }
+}

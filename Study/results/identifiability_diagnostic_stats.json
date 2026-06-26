@@ -1,0 +1,55 @@
+{
+  "additive": {
+    "n_levels": 11,
+    "reps_per_level": 20,
+    "n_points": 220,
+    "diag_at_alpha0": 0.10505311300590144,
+    "diag_at_alpha1": 0.041525330769481186,
+    "fdp_at_alpha0": 0.06215597493588718,
+    "fdp_at_alpha1": 0.928472353883366,
+    "recall_at_alpha0": 0.9767499999999998,
+    "recall_at_alpha1": 0.849,
+    "recall_min": 0.8300000000000001,
+    "pooled_spearman_diag_vs_fdp": -0.6825191864102444,
+    "blockboot_CI_diag_vs_fdp": [
+      -0.7242616603576854,
+      -0.4264410386958603
+    ],
+    "within_level_mean_spearman_diag_vs_fdp": -0.023306290929435446,
+    "within_level_sd": 0.23575858142820255,
+    "within_level_n": 11,
+    "pooled_spearman_diag_vs_recall": 0.567288444147753,
+    "blockboot_CI_diag_vs_recall": [
+      0.28693227199611687,
+      0.6745458657436894
+    ],
+    "note": "anchor shares the injected-truth term with the recovered effect by construction; this calibrates SENSITIVITY of the check, not independence of two measurements"
+  },
+  "multiplicative": {
+    "n_levels": 11,
+    "reps_per_level": 20,
+    "n_points": 220,
+    "diag_at_alpha0": 0.08719622795513642,
+    "diag_at_alpha1": 0.04340722755635862,
+    "fdp_at_alpha0": 0.056407822306050036,
+    "fdp_at_alpha1": 0.9251187018959414,
+    "recall_at_alpha0": 0.9435,
+    "recall_at_alpha1": 0.8677499999999998,
+    "recall_min": 0.8592499999999997,
+    "pooled_spearman_diag_vs_fdp": -0.6792612204406879,
+    "blockboot_CI_diag_vs_fdp": [
+      -0.7443603771061138,
+      -0.45172588520984475
+    ],
+    "within_level_mean_spearman_diag_vs_fdp": -0.0704032809295967,
+    "within_level_sd": 0.16477452934095804,
+    "within_level_n": 11,
+    "pooled_spearman_diag_vs_recall": 0.42746421249844496,
+    "blockboot_CI_diag_vs_recall": [
+      0.11838008120018846,
+      0.5752363570619795
+    ],
+    "note": "anchor shares the injected-truth term with the recovered effect by construction; this calibrates SENSITIVITY of the check, not independence of two measurements"
+  },
+  "anchor_truth_spearman_example": 0.20409396626641374
+}

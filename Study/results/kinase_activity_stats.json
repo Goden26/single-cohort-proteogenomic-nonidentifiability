@@ -1,0 +1,8 @@
+{
+  "kinases_both": 237,
+  "crosstumor_FDR05": 134,
+  "phospho_vs_RNA_spearman": -0.04471428646436217,
+  "phospho_vs_RNA_p": 0.4942222883875928,
+  "sign_agree": 0.4533898305084746,
+  "n_robust_concordant": 55
+}

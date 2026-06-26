@@ -1,0 +1,64 @@
+{
+  "A_depmap_geneset": {
+    "iron_handling": {
+      "n_genes": 18,
+      "mean_iCCA_minus_HCC_dep": -0.01287989746207107,
+      "competitive_perm_p": 0.1404,
+      "line_MWU_p": 0.4440696998799819,
+      "line_iCCA_meanChronos": -0.2119912926099188,
+      "line_HCC_meanChronos": -0.19911139514784773
+    },
+    "aa_transport": {
+      "n_genes": 14,
+      "mean_iCCA_minus_HCC_dep": -0.05901966385738544,
+      "competitive_perm_p": 0.0024,
+      "line_MWU_p": 0.04502088100253865,
+      "line_iCCA_meanChronos": -0.2335161977876461,
+      "line_HCC_meanChronos": -0.17449653393026057
+    },
+    "transport_combined": {
+      "n_genes": 32,
+      "mean_iCCA_minus_HCC_dep": -0.03306604526002111,
+      "competitive_perm_p": 0.002,
+      "line_MWU_p": 0.09605076611704393,
+      "line_iCCA_meanChronos": -0.2214084386251745,
+      "line_HCC_meanChronos": -0.18834239336515338
+    }
+  },
+  "B_tcga_expr": {
+    "iron_handling": {
+      "n_genes": 19,
+      "median_log2FC_iCCA_HCC": -0.06873958461121088,
+      "set_expr_MWU_p": 0.5456772998113011,
+      "frac_genes_iCCA_up": 0.47368421052631576
+    },
+    "aa_transport": {
+      "n_genes": 14,
+      "median_log2FC_iCCA_HCC": 0.7908943764113006,
+      "set_expr_MWU_p": 1.2041706060492702e-10,
+      "frac_genes_iCCA_up": 0.8571428571428571
+    },
+    "transport_combined": {
+      "n_genes": 33,
+      "median_log2FC_iCCA_HCC": 0.4501471306775455,
+      "set_expr_MWU_p": 7.881701078864366e-05,
+      "frac_genes_iCCA_up": 0.6363636363636364
+    }
+  },
+  "C_codependency": {
+    "core_genes": [
+      "TFRC",
+      "SLC3A2",
+      "SLC7A5",
+      "SLC1A5",
+      "SLC11A2",
+      "STEAP3",
+      "SLC7A11",
+      "SLC2A1",
+      "ACO1",
+      "FTH1"
+    ],
+    "mean_codependency_spearman": 0.11377227423739053,
+    "TFRC_SLC3A2_corr": 0.5622168529145274
+  }
+}

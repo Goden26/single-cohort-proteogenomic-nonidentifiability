@@ -1,0 +1,15 @@
+{
+  "lineage_axis_auc": 0.9998459761262996,
+  "marker_score_HCC_median": -0.16494436551607528,
+  "marker_score_iCCA_median": 0.12624232051007778,
+  "marker_score_cHCCCCA_median": -0.08157475479018073,
+  "n_HCC": 371,
+  "n_iCCA": 35,
+  "n_cHCCCCA": 8,
+  "mwu_cHCCCCA_vs_HCC_p": 0.04501038840668825,
+  "mwu_cHCCCCA_vs_iCCA_p": 2.2964169007098222e-05,
+  "kruskal_3group_p": 8.656289022147797e-21,
+  "ordered_trend_spearman_rho": 0.4605635848993254,
+  "ordered_trend_p": 3.9631033562977174e-23,
+  "frac_cHCCCCA_intermediate_band": 0.75
+}

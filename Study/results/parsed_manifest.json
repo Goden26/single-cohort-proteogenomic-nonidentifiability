@@ -1,0 +1,26 @@
+{
+  "gao_prot_T": [
+    6478,
+    159
+  ],
+  "gao_phos_T": [
+    26418,
+    159
+  ],
+  "dong_prot": [
+    8296,
+    214
+  ],
+  "dong_phos": [
+    18347,
+    214
+  ],
+  "dong_mrna": [
+    20173,
+    255
+  ],
+  "depmap_liver": 29,
+  "depmap_biliary": 46,
+  "common_proteins_HCC_iCCA": 6067,
+  "common_phosphosites_HCC_iCCA": 14246
+}

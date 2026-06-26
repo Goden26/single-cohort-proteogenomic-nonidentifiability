@@ -1,0 +1,14 @@
+{
+  "A_GSE231854_n_cHCCCCA": 25,
+  "A_GSE231854_n_HCC": 56,
+  "A_cHCCCCA_median": -0.05319795441471664,
+  "A_HCC_median": -0.2041852623289137,
+  "A_cliffs_cHCCCCA_vs_HCC": 0.58,
+  "A_mwu_p": 1.6929920404131105e-05,
+  "B_depmap_AAT_log2TPM_diff_iCCA_HCC": -0.08496141256516498,
+  "B_depmap_AAT_mwu_p": 0.3498074500630723,
+  "B_depmap_HCC_lines": 23,
+  "B_depmap_iCCA_lines": 30,
+  "B_depmap_AAT_drop_discovery_diff": 0.02594733260476012,
+  "B_depmap_AAT_drop_discovery_p": 0.3300849689367855
+}

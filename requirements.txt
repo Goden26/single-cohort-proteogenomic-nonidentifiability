@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+openpyxl
+adjustText
+decoupler
+omnipath
+mofapy2
+pyarrow
+fastparquet

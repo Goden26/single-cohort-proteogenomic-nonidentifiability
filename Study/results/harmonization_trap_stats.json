@@ -1,0 +1,46 @@
+{
+  "naive_method": "quantile normalization of merged Gao-HCC + Dong-iCCA proteome",
+  "n_proteins_tested": 6067,
+  "n_significant_fdr05": 3796,
+  "pct_significant": 0.6256799076973792,
+  "n_significant_signaling_enzymes": 407,
+  "example_false_kinase_hits": [
+    "PHKG2",
+    "PRKAR2B",
+    "ARF6",
+    "ADH5",
+    "COMT",
+    "AKR1A1",
+    "PPM1A",
+    "GNAI2"
+  ],
+  "top_by_effect": [
+    "ADH1A",
+    "NNMT",
+    "ENO3",
+    "FCGR2B",
+    "TTC36",
+    "SCGN",
+    "ALDH8A1",
+    "BDH2"
+  ],
+  "validation_vs_batchfree_RNA_rho": -0.14648151976301257,
+  "validation_p": 2.1336755185005856e-19,
+  "validation_sign_agreement": 0.3952431854623196,
+  "M2_combat_no_covariate": {
+    "discriminant_auc": 0.5025274789866573,
+    "pct_significant_fdr05": 0.0,
+    "anchor_rho": -0.12806328019183458,
+    "n_anchor": 5980,
+    "interpretation": "contrast erased (batch==tumour type removed by construction), like per-cohort z-score"
+  },
+  "M2_combat_protect_tumortype": {
+    "design_rank": 2,
+    "design_cols": 3,
+    "rank_deficient": true,
+    "forced_pinv_discriminant_auc": 0.5125492270616587,
+    "forced_pinv_pct_significant_fdr05": 0.02109774188231416,
+    "forced_pinv_anchor_rho": 0.18070541373756677,
+    "interpretation": "tumour type perfectly confounded with batch -> design rank-deficient; standard ComBat (sva/pyComBat) aborts. Forced via pinv it is degenerate and does not recover the batch-free axis."
+  }
+}

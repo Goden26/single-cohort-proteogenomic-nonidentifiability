@@ -1,0 +1,30 @@
+{
+  "common_proteins": 6067,
+  "n_HCC": 159,
+  "n_iCCA": 214,
+  "marker_score_HCC_median": -0.08290698187271206,
+  "marker_score_iCCA_median": 0.010002914612297423,
+  "marker_iCCA_gt_HCC_p": 0.11874109105515018,
+  "proteome_vs_RNA_direction_spearman": -0.1541319565402723,
+  "proteome_vs_RNA_direction_p": 4.0919452921874184e-33,
+  "sign_agreement_strong_genes": 0.41867954911433175,
+  "n_strong_genes": 1863,
+  "M3_normalization_sweep_rho_vs_RNA": {
+    "raw_abundance": {
+      "rho": -0.21272683550525454,
+      "n": 5980
+    },
+    "within_sample_percentile": {
+      "rho": -0.1541319565402723,
+      "n": 5980
+    },
+    "per_cohort_zscore": {
+      "rho": -0.0043665384294270795,
+      "n": 5980
+    },
+    "quantile_merge": {
+      "rho": -0.12655013614595526,
+      "n": 5980
+    }
+  }
+}
