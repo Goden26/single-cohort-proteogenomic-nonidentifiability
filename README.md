@@ -1,6 +1,6 @@
 # Liver cancer genes study: START HERE (project README)
 
-Read this one file to understand the whole project: what it is, what it found, where everything is, how to reproduce it, and what is left to do. Last updated 2026-06-25.
+Read this one file to understand the whole project: what it is, what it found, where everything is, how to reproduce it, and what is left to do. Last updated 2026-06-27.
 
 ---
 
@@ -10,7 +10,7 @@ A dry-lab, open-data-only computational study (project codename "c1") that began
 
 > Merging single-cohort proteogenomic datasets is non-identifiable for cross-tumor contrasts. We demonstrate this in liver (HCC vs iCCA) and kidney (ccRCC vs pRCC), calibrate on ground truth how a standard batch-free anchor check degrades with aliasing, and provide a cross-validated HCC-iCCA lineage axis plus a small clinically-anchored LAT1 dependency as the surviving positive results.
 
-Status: manuscript finalized and submission-ready. Honest tier estimate: applied / methods-caution journal (Q1-applied or Q2), roughly 55 to 70 percent acceptance odds. It is NOT a top-methods novelty paper (see Section 8). It IS a degree-qualifying first-author SCI paper.
+Status: Translational Oncology submission package finalized and submission-ready. Honest tier estimate: applied/translational oncology journal, roughly moderate acceptance odds after desk-scope screening. It is NOT a top-methods novelty paper (see Section 8). It IS a degree-qualifying first-author SCI paper.
 
 Author: Anh Tuan Quan, MD, MSc. International Ph.D. Program in Medicine, Taipei Medical University. Email tuan.quan.md@outlook.com. ORCID 0009-0008-2281-970X.
 
@@ -29,12 +29,15 @@ Liver cancer genes study/
 │     ├── logs/                download / install logs
 │     └── venv/                Python 3.13 env (STALE PATHS after the folder move;
 │                              recreate with scripts/setup_venv.sh if rerunning)
-├── Submission package/ (1.7M) THE FINAL manuscript, ready to submit:
+├── Submission package/        THE FINAL Translational Oncology package:
 │     ├── manuscript.md / .docx
 │     ├── title_page.md / .docx
 │     ├── cover_letter.md / .docx
 │     ├── declarations.md / .docx
-│     └── submission_package.pdf   (combined: title+cover+manuscript+declarations)
+│     ├── highlights.md / .docx
+│     ├── supplementary_material.md / .docx
+│     ├── Figure_1.png ... Figure_5.png and Figure_S1.png
+│     └── submission_package.pdf   (combined convenience review PDF)
 └── Materials/   (40 KB)       supporting records:
       ├── RESULTS.md           lab-notebook results writeup (NOTE: its top
       │                        sections 1-3 are SUPERSEDED, see its own banner)
@@ -50,7 +53,7 @@ All intermediate and superseded manuscript versions were deleted; only the final
 
 1. Formal non-identifiability: when two tumor types each come from one proteomic cohort from a different lab, tumor type is perfectly aliased with batch, so the between-type contrast cannot be separated from technical variation by any normalization.
 2. A concrete harmonization-trap demonstration: a standard quantile harmonization of the two largest open liver proteogenomic cohorts flags 3,796 of 6,067 proteins (63 percent, including 407 named signaling enzymes) as "significant" iCCA-vs-HCC, none of which validate against a batch-free RNA axis. The same failure recurs in kidney (76 percent significant, anchor concordance rho = 0.004).
-3. A ground-truth calibration: using real TCGA-LIHC expression with a spiked signature and a noisy orthogonal anchor, anchor concordance predicts the false-discovery load across 11 aliasing levels (per-replicate Spearman -0.68, 95 percent CI -0.74 to -0.61, robust to additive and multiplicative batch). We calibrate a known check (RUV, gPCA, sva, the routine mRNA-protein concordance check); we do NOT claim a new method.
+3. A ground-truth calibration: using real TCGA-LIHC expression with a spiked signature and a noisy orthogonal anchor, anchor concordance predicts the false-discovery load across 11 aliasing levels (pooled Spearman -0.68, level-block bootstrap 95 percent CI -0.72 to -0.43, robust to additive and multiplicative batch). We calibrate a known check (RUV, gPCA, sva, the routine mRNA-protein concordance check); we do NOT claim a new method.
 4. A reusable, cross-validated HCC-iCCA lineage axis (nested CV-AUC 0.966; 0.966 without marker genes), along which intermediate-cell combined HCC-CCA (i-CHC) sits as an intermediate phenotype, replicated in an independent cohort (Cliff's delta 0.58, P = 1.7e-5).
 5. A functional-genomics caution plus the one surviving positive: an apparent iCCA-selective kinase program (EGFR/GRB2/CRKL) is a comparator artifact (7 of 11 hits pan-essential); only LAT1 amino-acid transport survives a fair direct iCCA-vs-HCC test, is over-expressed in iCCA tumors, and aligns with the positive randomized phase-2 trial of the LAT1 inhibitor nanvuranlat.
 
@@ -85,11 +88,13 @@ The submission docs are rebuilt with pandoc + tectonic using Materials/_tnr_ref.
 
 ## 6. Status and how to submit (what is left)
 
-The manuscript is final. To actually submit, the author (not the analysis) must:
-1. Pick a journal. Suggested order: GigaScience or PLOS Computational Biology (reproducible benchmark / negative-with-content friendly) -> Briefings in Bioinformatics (applied track) -> BMC Bioinformatics or NAR Genomics and Bioinformatics -> backup Scientific Reports. All are SCI-indexed (degree-qualifying).
-2. Confirm the final journal submission form selected the subscription / non-open-access route for Journal of Biomedical Informatics. The code repository and Zenodo archive are already public: https://github.com/Goden26/single-cohort-proteogenomic-nonidentifiability and DOI 10.5281/zenodo.20888892.
-3. Confirm the manuscript word-count field as 5,870 words for the main text from Introduction through Conclusion, excluding abstract, references, figures, and tables.
-4. Frame the cover letter around the general methods caution (already done) to avoid a desk-reject on "narrow/negative" grounds.
+The manuscript is final. To submit to Translational Oncology:
+1. Upload `release/Translational_Oncology_submission_package_2026-06-27.zip` or upload the individual files listed in `Submission package/submission_checklist_translational_oncology.docx`.
+2. Use article type: Original Research Article.
+3. Enter the abstract word count as 229 and the main text word count as 4,376.
+4. Enter 5 figures and 1 table for the main manuscript, plus 1 supplementary figure and 1 supplementary table.
+5. Upload `highlights.docx`; it has 4 bullets and each is below 85 characters.
+6. The guide asks for official institutional letterhead with logo for the cover letter. `cover_letter.docx` is formatted as an editable letter; use an official Taipei Medical University letterhead template if the submission office strictly requires the logo.
 
 ---
 

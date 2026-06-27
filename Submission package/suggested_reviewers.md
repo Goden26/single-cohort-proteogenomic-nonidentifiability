@@ -1,6 +1,6 @@
 # Suggested reviewers
 
-JBI does not want suggested reviewers inside the cover letter; the system requests them separately if needed. This is a candidate list of real, senior experts whose own methods this paper builds on or stress-tests. Before entering any name, VERIFY the current affiliation and email, and exclude anyone with a conflict of interest (recent co-authorship, same institution, or a mentor/mentee relationship). The author has no co-authors, which simplifies conflict checks.
+Translational Oncology does not ask for suggested reviewers in the cover letter; enter them only if Editorial Manager requests them separately. This is a candidate list of real, senior experts whose own methods this paper builds on or stress-tests. Before entering any name, verify the current affiliation and email, and exclude anyone with a conflict of interest (recent co-authorship, same institution, or mentor/mentee relationship). The author has no co-authors, which simplifies conflict checks.
 
 1. **Jeffrey T. Leek** - batch effects and surrogate variable analysis (lead author of the sva package, cited as ref [23]). Authority on confounding and unwanted variation in high-throughput data. (Verify current affiliation; recently at Fred Hutchinson Cancer Center, Seattle, USA.)
 

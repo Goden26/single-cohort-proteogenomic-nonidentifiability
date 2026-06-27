@@ -1,19 +1,19 @@
 # Title page
 
 **Title**
-Merging single-cohort proteogenomic datasets is non-identifiable for cross-tumor contrasts: a calibrated benchmark in liver and kidney cancer
+A liver cancer lineage axis and LAT1 vulnerability reveal non-identifiability in single-cohort proteogenomic merges
 
 **Running title**
-A non-identifiability benchmark for single-cohort proteogenomic merges
+Liver cancer lineage axis and LAT1 vulnerability
 
 **Article type**
-Research Paper (Original research)
+Original Research Article
 
 **Author**
 Anh Tuan Quan, MD, MSc
 
 **Affiliation**
-International Graduate Program in Medicine, College of Medicine, Taipei Medical University, Taipei, Taiwan
+International Graduate Program in Medicine, College of Medicine, Taipei Medical University, No. 250 Wuxing Street, Xinyi District, Taipei 11031, Taiwan
 
 **Corresponding author**
 Dr. Anh Tuan Quan
@@ -23,10 +23,10 @@ Email: tuan.quan.md@outlook.com
 ORCID: https://orcid.org/0009-0008-2281-970X
 
 **Keywords**
-Data integration; Batch effects; Non-identifiability; Confounding; Proteogenomics; Reproducibility; Benchmarking
+Hepatocellular carcinoma; Intrahepatic cholangiocarcinoma; Combined HCC-CCA; LAT1; Cancer dependency; Proteogenomics; Batch confounding
 
 **Word counts**
-Structured abstract: 283 words including section labels. Main text (Introduction through Conclusion): 5,870 words. Figures: 6. Tables: 2. References: 24. Supplementary material: full analysis code and intermediate result tables released as an open repository.
+Structured abstract: 229 words. Main text (Introduction through Conclusion): 4,376 words. Figures: 5. Tables: 1. Supplementary items: 1 figure and 1 table. References: 24.
 
 **Funding**
 This work received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.

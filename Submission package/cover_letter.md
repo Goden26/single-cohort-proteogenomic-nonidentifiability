@@ -1,23 +1,31 @@
 Anh Tuan Quan, MD, MSc
+
 International Graduate Program in Medicine, College of Medicine, Taipei Medical University, Taipei, Taiwan
+
 ORCID: https://orcid.org/0009-0008-2281-970X
+
+Email: tuan.quan.md@outlook.com
 
 Dear Editor-in-Chief,
 
-I am pleased to submit the manuscript "Merging single-cohort proteogenomic datasets is non-identifiable for cross-tumor contrasts: a calibrated benchmark in liver and kidney cancer" for consideration as a Research Paper in the Journal of Biomedical Informatics. This is an original methodological contribution on the identifiability of multi-omics data integration, and it offers a reusable evaluation procedure for the common single-cohort-per-condition setting.
+Please consider the manuscript, "A liver cancer lineage axis and LAT1 vulnerability reveal non-identifiability in single-cohort proteogenomic merges," for publication as an Original Research Article in Translational Oncology.
 
-The work fits the scope of JBI, which centers on methodological rigor, reproducibility, and the critical evaluation of informatics approaches. Its primary contribution is a formal non-identifiability result for a widespread integration design: when each condition is represented by a single cohort, the biological contrast is perfectly aliased with cohort and batch, so no procedure can separate biology from technical variation. We make this concrete with a harmonization trap. Standard quantile harmonization of two merged proteomes flagged 63 percent of liver proteins and 76 percent of kidney proteins as significant, none of which validated against a batch-free RNA anchor. We further show that a dedicated batch corrector cannot rescue this: ComBat without a protected covariate erases the contrast, while protecting the condition leaves a rank-deficient design that standard implementations reject, an impossibility that follows directly from the aliasing.
+The study fits the journal's translational oncology scope because it connects cancer lineage classification, target nomination, and clinical anchoring in liver cancer. Using only open data, it builds a cross-validated hepatocellular-carcinoma (HCC) to intrahepatic-cholangiocarcinoma (iCCA) lineage axis (AUC 0.966) and places combined hepatocellular-cholangiocarcinoma (cHCC-CCA) in the expected intermediate direction, with independent replication relative to HCC.
 
-We are explicit about what is and is not new. The batch-free anchor check is established practice, drawing on negative-control and orthogonal-validation methods and the routine mRNA-protein concordance check. Our contribution is the framing, a ground-truth calibration of how that check degrades across aliasing regimes via a controlled titration, and a reproducible two-disease benchmark (a powered liver case and a corroborating kidney case) that gives practitioners a concrete way to judge when a cross-cohort contrast is trustworthy. The worked example also yields surviving positive deliverables computed only from batch-controlled layers: a cross-validated lineage axis, a lesson on choosing the correct comparator for dependency analysis, and a clinically anchored amino-acid-transport (LAT1) dependency that aligns with a positive randomized phase-2 trial.
+The paper also addresses a practical target-nomination risk. An apparent iCCA-selective EGFR/kinase program disappears when DepMap dependency is tested against HCC rather than all other lineages. By contrast, LAT1 amino-acid transport remains supported by tumor expression and by the positive randomized phase 2 nanvuranlat study in biliary tract cancer.
 
-The study is fully reproducible: all data and code are public, and every reported number is regenerable from the released scripts. The manuscript is original, has not been published, and is not under consideration elsewhere. All author declarations, the data and code availability statement, and the disclosure of AI-assisted tool use are provided within the manuscript.
+The methodological contribution is a reproducible benchmark showing that single-cohort-per-tumor-type proteogenomic merges are non-identifiable for cross-tumor contrasts. A standard harmonization produced thousands of liver and kidney protein hits that failed batch-free RNA validation, and ComBat could not resolve the aliased design. The manuscript therefore separates what open liver cancer data can support from what they cannot.
 
-Thank you for your consideration.
+All data are public, and the complete pipeline, tables, and figures are released on GitHub (https://github.com/Goden26/single-cohort-proteogenomic-nonidentifiability) and archived at Zenodo (DOI: 10.5281/zenodo.20888892).
+
+Thank you for considering this submission.
 
 Sincerely,
 
-Dr. Anh Tuan Quan
-International Graduate Program in Medicine, College of Medicine, Taipei Medical University
+Anh Tuan Quan, MD, MSc
+
 No. 250 Wuxing Street, Xinyi District, Taipei 11031, Taiwan
+
 Tel.: +84 987 750 775
+
 Email: tuan.quan.md@outlook.com
